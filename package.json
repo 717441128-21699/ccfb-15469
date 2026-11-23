@@ -1,0 +1,19 @@
+{
+  "name": "dragon-boat-race",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "龙舟竞速游戏：玩家当鼓手，WebGL2 渲染 + TypeScript 120Hz 物理",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.8"
+  }
+}
